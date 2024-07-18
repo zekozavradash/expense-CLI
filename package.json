@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "bin": {
+    "create-expense": "./create.js",
+    "delete-expense": "./delete.js",
+    "search-expense": "./search.js"
+  },
+  "scripts": {
+    "create-expense": "node create.js create-expense",
+    "delete-expense": "node delete.js delete-expense",
+    "search-expense": "node search.js search-expense"
+  }
+}
